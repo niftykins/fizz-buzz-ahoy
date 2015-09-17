@@ -1,0 +1,18 @@
+<head>
+	<title>FizzBuzz Ahoy</title>
+</head>
+
+<body>
+	{{> fizzbuzz}}
+</body>
+
+<template name="fizzbuzz">
+	<div class="fizzbuzz">
+		<input id="number" type="text" placeholder="Enter a number" />
+		<button>FizzBuzz</button>
+
+		<div class="output">
+			{{getFizzBuzz}}
+		</div>
+	</div>
+</template>
